@@ -5,11 +5,14 @@
 body {
   width: 960px;
   padding: 0px;
-  margin: 0px;
+  margin: 10px;
 }
 
 header {
   width: 100%;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
 }
 
 main {
@@ -18,7 +21,84 @@ main {
 
 footer {
   width: 100%;
+  height: 80px;
+  padding-bottom: 20px;
 }
 
+#headercontent {
+  width: 100%;
+  height: 68px;
+}
 
+#logo {
+  float: left;
+  padding-top: 5px;
+}
 
+#logotext {
+  display: inline-block;
+  width: 696px;
+  height: 68px;
+}
+
+#medialinks {
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#rsslink {
+  margin-left: 10px;
+}
+
+#headerbar {
+  margin-top: 12px;
+}
+
+header h1 {
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+header h5 {
+  margin: 0px;
+}
+
+ul li {
+  display: inline-block;
+  width: 40%;
+}
+
+footer div {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+}
+
+#footerbar {
+}
+
+#vanessa {
+  float: left;
+}
+
+footer h3, p {
+  display: inline-block;
+}
+
+#aboutme {
+  display: inline-block;
+  width: 700px;
+  height: 96px;
+}
+
+footer h3 {
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+footer p {
+  margin: 0px;
+}
